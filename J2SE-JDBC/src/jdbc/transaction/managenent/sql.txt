@@ -1,0 +1,18 @@
+CREATE TABLE EmployeeT
+(
+empId INT,
+NAME VARCHAR(20)
+)
+
+CREATE TABLE AddressT
+(
+empId INT,
+address VARCHAR(30),
+city VARCHAR(20),
+country VARCHAR(20)
+)
+
+CREATE TABLE LOGS
+(
+message VARCHAR(20)
+)
